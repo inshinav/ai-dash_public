@@ -1,0 +1,99 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-21",
+  "spreadsheet": {
+    "id": "YOUR_GOOGLE_SPREADSHEET_ID",
+    "url": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SPREADSHEET_ID/edit",
+    "title": "AI Models — Short-form Content Analytics"
+  },
+  "platforms": [
+    "Instagram",
+    "TikTok"
+  ],
+  "post_grain": "one publication on one platform",
+  "refresh_policy": "overwrite metrics in the existing post row",
+  "sheets": {
+    "POSTS": {
+      "primary_key": "Post ID",
+      "record_types": [
+        "LIVE",
+        "EXAMPLE"
+      ],
+      "columns": [
+        {"column": "A", "name": "Post ID", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "B", "name": "Creative ID", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "C", "name": "Platform", "kind": "manual", "type": "enum", "platform": "both"},
+        {"column": "D", "name": "Account", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "E", "name": "Model", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "F", "name": "Post URL", "kind": "manual", "type": "url", "platform": "both"},
+        {"column": "G", "name": "Publish date/time", "kind": "manual", "type": "datetime", "platform": "both"},
+        {"column": "H", "name": "Video duration (sec)", "kind": "manual", "type": "number", "platform": "both"},
+        {"column": "I", "name": "Content pillar", "kind": "manual", "type": "enum", "platform": "both"},
+        {"column": "J", "name": "Format", "kind": "manual", "type": "enum", "platform": "both"},
+        {"column": "K", "name": "Video description", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "L", "name": "First frame", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "M", "name": "Text on video", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "N", "name": "Hook type", "kind": "manual", "type": "enum", "platform": "both"},
+        {"column": "O", "name": "Caption", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "P", "name": "CTA", "kind": "manual", "type": "enum", "platform": "both"},
+        {"column": "Q", "name": "Hashtags", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "R", "name": "Location", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "S", "name": "Outfit", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "T", "name": "Notes", "kind": "manual", "type": "string", "platform": "both"},
+        {"column": "U", "name": "Record type", "kind": "manual", "type": "enum", "platform": "both"},
+        {"column": "V", "name": "Views", "kind": "input", "type": "integer", "platform": "both"},
+        {"column": "W", "name": "Accounts reached", "kind": "input", "type": "integer", "platform": "Instagram"},
+        {"column": "X", "name": "Total play time (sec)", "kind": "input", "type": "number", "platform": "TikTok"},
+        {"column": "Y", "name": "Average watch time (sec)", "kind": "input", "type": "number", "platform": "both"},
+        {"column": "Z", "name": "Skip rate", "kind": "input", "type": "percentage", "platform": "Instagram"},
+        {"column": "AA", "name": "Watched full video %", "kind": "input", "type": "percentage", "platform": "TikTok"},
+        {"column": "AB", "name": "Likes", "kind": "input", "type": "integer", "platform": "both"},
+        {"column": "AC", "name": "Comments", "kind": "input", "type": "integer", "platform": "both"},
+        {"column": "AD", "name": "Reposts", "kind": "input", "type": "integer", "platform": "Instagram"},
+        {"column": "AE", "name": "Shares", "kind": "input", "type": "integer", "platform": "both"},
+        {"column": "AF", "name": "Saves", "kind": "input", "type": "integer", "platform": "both"},
+        {"column": "AG", "name": "Profile visits", "kind": "input", "type": "integer", "platform": "Instagram"},
+        {"column": "AH", "name": "Follows / New followers", "kind": "input", "type": "integer", "platform": "both"},
+        {"column": "AI", "name": "Native like rate", "kind": "input", "type": "percentage", "platform": "Instagram"},
+        {"column": "AJ", "name": "Native comment rate", "kind": "input", "type": "percentage", "platform": "Instagram"},
+        {"column": "AK", "name": "Native repost rate", "kind": "input", "type": "percentage", "platform": "Instagram"},
+        {"column": "AL", "name": "Native share rate", "kind": "input", "type": "percentage", "platform": "Instagram"},
+        {"column": "AM", "name": "Native save rate", "kind": "input", "type": "percentage", "platform": "Instagram"},
+        {"column": "AN", "name": "Followers %", "kind": "input", "type": "percentage", "platform": "Instagram"},
+        {"column": "AO", "name": "Non-followers %", "kind": "input", "type": "percentage", "platform": "Instagram"},
+        {"column": "AP", "name": "Average percentage viewed", "kind": "formula", "type": "percentage", "platform": "both", "definition": "Average watch time / Video duration"},
+        {"column": "AQ", "name": "Total engagements", "kind": "formula", "type": "integer", "platform": "both", "definition": "Likes + Comments + Reposts + Shares + Saves"},
+        {"column": "AR", "name": "Engagement rate by views", "kind": "formula", "type": "percentage", "platform": "both", "definition": "Total engagements / Views"},
+        {"column": "AS", "name": "Like rate", "kind": "formula", "type": "percentage", "platform": "both", "definition": "Likes / Views"},
+        {"column": "AT", "name": "Comment rate", "kind": "formula", "type": "percentage", "platform": "both", "definition": "Comments / Views"},
+        {"column": "AU", "name": "Share rate", "kind": "formula", "type": "percentage", "platform": "both", "definition": "Shares / Views"},
+        {"column": "AV", "name": "Save rate", "kind": "formula", "type": "percentage", "platform": "both", "definition": "Saves / Views"},
+        {"column": "AW", "name": "Follow conversion", "kind": "formula", "type": "percentage", "platform": "both", "definition": "Follows / Views"},
+        {"column": "AX", "name": "Engagements per 1,000 views", "kind": "formula", "type": "number", "platform": "both", "definition": "Total engagements / Views * 1000"},
+        {"column": "AY", "name": "Follows per 1,000 views", "kind": "formula", "type": "number", "platform": "both", "definition": "Follows / Views * 1000"},
+        {"column": "AZ", "name": "Engagement rate by reach", "kind": "formula", "type": "percentage", "platform": "Instagram", "definition": "Total engagements / Accounts reached"},
+        {"column": "BA", "name": "Hold rate", "kind": "formula", "type": "percentage", "platform": "Instagram", "definition": "1 - Skip rate"},
+        {"column": "BB", "name": "Views per reached account", "kind": "formula", "type": "number", "platform": "Instagram", "definition": "Views / Accounts reached"},
+        {"column": "BC", "name": "Profile visit rate", "kind": "formula", "type": "percentage", "platform": "Instagram", "definition": "Profile visits / Views"},
+        {"column": "BD", "name": "Profile-to-follow conversion", "kind": "formula", "type": "percentage", "platform": "Instagram", "definition": "Follows / Profile visits"},
+        {"column": "BE", "name": "Follow conversion by reach", "kind": "formula", "type": "percentage", "platform": "Instagram", "definition": "Follows / Accounts reached"}
+      ]
+    },
+    "AUDIENCE_BREAKDOWN": {
+      "columns": [
+        {"column": "A", "name": "Post ID", "type": "string"},
+        {"column": "B", "name": "Platform", "type": "enum"},
+        {"column": "C", "name": "Dimension", "type": "enum"},
+        {"column": "D", "name": "Segment", "type": "string"},
+        {"column": "E", "name": "Percentage", "type": "percentage"},
+        {"column": "F", "name": "Record type", "type": "enum"}
+      ],
+      "dimensions": [
+        "Follower status",
+        "Gender",
+        "Age",
+        "Country"
+      ]
+    }
+  }
+}

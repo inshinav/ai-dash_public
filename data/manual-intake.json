@@ -1,0 +1,1006 @@
+{
+  "version": "1.0.0",
+  "createdAt": "2026-06-24",
+  "updatedAt": "2026-06-24",
+  "status": "collecting",
+  "expected": {
+    "total": 9,
+    "Instagram": 6,
+    "TikTok": 3
+  },
+  "accepted": {
+    "total": 4,
+    "Instagram": 2,
+    "TikTok": 2
+  },
+  "paths": {
+    "root": "storage/intake",
+    "incoming": "storage/intake/incoming",
+    "videos": "storage/intake/videos",
+    "screenshots": "storage/intake/screenshots"
+  },
+  "fieldPolicy": {
+    "source": "manual files and visible screenshot data only",
+    "missingValues": "null",
+    "doNotInfer": true,
+    "ratesPolicy": "do not mix view-based, reach-based and native platform rates",
+    "notCollected": [
+      "account",
+      "postUrl",
+      "videoResolution"
+    ]
+  },
+  "postFields": {
+    "creationMethod": "how the reel was created; for example text-to-video, image-to-video, reference video, editing workflow, tool chain",
+    "defaultCreationMethodFromNow": "seedance 2 edit video",
+    "durationSec": "video length in seconds",
+    "date": "publish date by default; creation date only when explicitly provided"
+  },
+  "posts": [
+    {
+      "postId": "TT_001",
+      "creativeId": "CREATIVE_001_CAT_EARS_TURN_SIGNALS",
+      "platform": "TikTok",
+      "account": null,
+      "model": "Saya Moon v1",
+      "creationMethod": "seedance 2 image to video",
+      "durationSec": 12.07,
+      "date": "2026-06-07",
+      "publishedAt": "2026-06-07 16:43",
+      "postUrl": null,
+      "textOnVideo": "cat ears > turn signals",
+      "caption": "so a customer last week saw me pull up on a delivery and asked why my helmet ears light up.\ntold him they're my turn signals now — right ear glows, i'm going right. he thought i was \njoking. i was not joking.\n\nhonestly? been riding with them a few weeks and it's better than the factory blinkers. \nthe only problem is nobody behind me knows the rules yet lol.\n\nok serious question though — is this actually legal, or am i one cop away from a very \nconfusing conversation? 🐾 and what do both ears at once mean — hazards, or \"i'm lost\"? \ndecide in the comments ↓\n\n#nightride #catears #motogirl",
+      "description": null,
+      "sourceNotes": null,
+      "recordType": "LIVE",
+      "sourceUpdatedAt": "2026-06-22",
+      "contentPillar": "Мото / концепт-юмор (фишка-гаджет)",
+      "hookType": "Текст-концепт + визуал — «cat ears > turn signals», горящее ухо-поворотник",
+      "contentAnalysis": {
+        "hook": "Со спины на мокром ночном перекрёстке под красным светофором: розовый шлем с кошачьими ушами, одно ухо горит оранжевым как поворотник. Подпись «cat ears > turn signals» сразу объясняет фишку. Неон отражается в мокром асфальте — кинематографичный, атмосферный кадр.",
+        "scene": "Ночной дождливый город, перекрёсток со светофором, мокрый асфальт с красно-зелёными отражениями. Холодная filmic-картинка, ощущение тишины и ожидания.",
+        "action": "Героиня стоит на красный, правое ухо-поворотник мигает оранжевым (сигналит направо). Камера держит медленный план со спины; светофор переключается красный→зелёный (палитра кадра меняется), и она трогается.",
+        "subject": "AI-инфлюенсер Saya Moon — байкерша: розовый шлем с кошачьими ушами (одно горит как поворотник), чёрно-розовая экипировка, спортбайк; стоп-сигнал в форме кошачьей мордочки.",
+        "pacing": "12с, медленный атмосферный ритм почти без склеек — один длинный vibe-план ожидания на светофоре + развязка-поворот. Держит образ и любопытство, а не динамика.",
+        "ending": "Зелёный — она поворачивает направо (ровно туда, куда «сигналило» ухо) и уезжает; общий план вслед. Концепт обыгран буквально. CTA — в подписи (вопрос «это вообще легально?» → дебаты в комментах).",
+        "whyItWorked": "Зритель ночью в ленте цепляется не на «горячее», а на «стоп, что это?» — горящее ухо-поворотник + вопрос в подписи продают любопытство. Поэтому аудитория заметно сбалансированнее: 41% женщин (против 3% у gas-station), 95% новые зрители. Но любопытство выгорает быстро: avgWatch 6.0с из 12 (~50%), досмотр 18.9% — «понял шутку → листаю». 249 показов, 0 подписок, 0 сохранений: клип улыбает, но не вызывает «хочу ещё этого персонажа» или «сохраню себе». Вывод: концепт хорош для широкого охвата и комментов, но длинная статичная подводка режет досмотр — сократить ожидание и быстрее доводить до поворота-развязки."
+      },
+      "contentTags": [
+        "мотоцикл",
+        "байкерша",
+        "кошачьи-уши",
+        "поворотник",
+        "ночь",
+        "дождь",
+        "перекрёсток",
+        "неон",
+        "концепт",
+        "юмор",
+        "ai-инфлюенсер"
+      ],
+      "metrics": {
+        "views": 249,
+        "likes": 13,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "newFollowers": 0,
+        "totalPlayTimeSec": 1607,
+        "averageWatchTimeSec": 6,
+        "watchedFullVideoRate": 0.1889,
+        "totalViewers": 223,
+        "totalViewersDeltaVsOneDayAgo": 8
+      }
+    },
+    {
+      "postId": "IG_001",
+      "creativeId": "CREATIVE_001_CAT_EARS_TURN_SIGNALS",
+      "platform": "Instagram",
+      "account": null,
+      "model": "Saya Moon v1",
+      "creationMethod": "seedance 2 image to video",
+      "durationSec": 12.07,
+      "date": "2026-06-07",
+      "publishedAt": "2026-06-07",
+      "postUrl": null,
+      "textOnVideo": "cat ears > turn signals",
+      "caption": "so a customer last week saw me pull up on a delivery and asked why my helmet ears light up.\ntold him they're my turn signals now — right ear glows, i'm going right. he thought i was \njoking. i was not joking.\n\nhonestly? been riding with them a few weeks and it's better than the factory blinkers. \nthe only problem is nobody behind me knows the rules yet lol.\n\nok serious question though — is this actually legal, or am i one cop away from a very \nconfusing conversation? 🐾 and what do both ears at once mean — hazards, or \"i'm lost\"? \ndecide in the comments ↓\n\n#nightride #catears #motogirl",
+      "description": null,
+      "sourceNotes": null,
+      "recordType": "LIVE",
+      "sourceUpdatedAt": null,
+      "contentPillar": "Мото / концепт-юмор (фишка-гаджет)",
+      "hookType": "Текст-концепт + визуал — «cat ears > turn signals», горящее ухо-поворотник",
+      "contentAnalysis": {
+        "hook": "Со спины на мокром ночном перекрёстке под красным светофором: розовый шлем с кошачьими ушами, одно ухо горит оранжевым как поворотник. Подпись «cat ears > turn signals» сразу объясняет фишку. Неон отражается в мокром асфальте — кинематографичный, атмосферный кадр.",
+        "scene": "Ночной дождливый город, перекрёсток со светофором, мокрый асфальт с красно-зелёными отражениями. Холодная filmic-картинка, ощущение тишины и ожидания.",
+        "action": "Героиня стоит на красный, правое ухо-поворотник мигает оранжевым (сигналит направо). Камера держит медленный план со спины; светофор переключается красный→зелёный (палитра кадра меняется), и она трогается.",
+        "subject": "AI-инфлюенсер Saya Moon — байкерша: розовый шлем с кошачьими ушами (одно горит как поворотник), чёрно-розовая экипировка, спортбайк; стоп-сигнал в форме кошачьей мордочки.",
+        "pacing": "12с, медленный атмосферный ритм почти без склеек — один длинный vibe-план ожидания на светофоре + развязка-поворот. Держит образ и любопытство, а не динамика.",
+        "ending": "Зелёный — она поворачивает направо (ровно туда, куда «сигналило» ухо) и уезжает; общий план вслед. Концепт обыгран буквально. CTA — в подписи (вопрос «это вообще легально?» → дебаты в комментах).",
+        "whyItWorked": "Тот же клип на IG собрал более мужскую (80% М) и более международную аудиторию (US 46%, дальше UK/DE/IT) — concept-юмор путешествует через границы лучше, чем на TikTok. Но IG-лента прощает медленный старт ещё меньше: skipRate 0.45 (досматривает ~55%), avgWatch 5с из 12 — медитативная подводка теряет зрителя в первые секунды. 3 захода в профиль, но 0 подписок: интерес вспыхивает и гаснет. Гипотеза: на IG вынести фишку (горящее ухо + поворот) в первый кадр, а концепт-вопрос оставить как «дебатный» крючок в подписи для комментов."
+      },
+      "contentTags": [
+        "мотоцикл",
+        "байкерша",
+        "кошачьи-уши",
+        "поворотник",
+        "ночь",
+        "дождь",
+        "перекрёсток",
+        "неон",
+        "концепт",
+        "юмор",
+        "ai-инфлюенсер"
+      ],
+      "metrics": {
+        "views": 207,
+        "reach": 174,
+        "averageWatchTimeSec": 5,
+        "follows": 0,
+        "profileVisits": 3,
+        "likes": 7,
+        "comments": 1,
+        "reposts": 0,
+        "shares": 0,
+        "saves": 1,
+        "skipRate": 0.45,
+        "nativeShareRate": 0,
+        "nativeLikeRate": 0.041,
+        "nativeSaveRate": 0.006,
+        "nativeRepostRate": 0,
+        "nativeCommentRate": 0.006
+      }
+    },
+    {
+      "postId": "TT_002",
+      "creativeId": "CREATIVE_002_TOO_HOT_GAS_STATION",
+      "platform": "TikTok",
+      "account": null,
+      "model": "Saya Moon v1",
+      "creationMethod": "seedance 2 edit video",
+      "durationSec": 10.98,
+      "date": "2026-06-10",
+      "publishedAt": "2026-06-10 16:52",
+      "postUrl": null,
+      "textOnVideo": "too hot for a gas station",
+      "caption": "thought I was just gonna pull in and head out\nbut my bike was in the mood to put on a little show",
+      "description": null,
+      "sourceNotes": null,
+      "recordType": "LIVE",
+      "sourceUpdatedAt": "2026-06-22",
+      "contentPillar": "Мото / glam-показ персонажа",
+      "hookType": "Визуальный thirst + текст — «too hot for a gas station», контраст глянца и заправки",
+      "contentAnalysis": {
+        "hook": "Гламурная AI-байкерша на глянцевом чёрно-розовом спортбайке посреди обычной заправки Marathon ночью; розовый шлем с кошачьими ушами. Подпись «too hot for a gas station» прямо называет приём — контраст «модель уровня глянца в бытовом месте».",
+        "scene": "Ночь, освещённый навес заправки Marathon, бетон, топливные колонки. Бытовой фон намеренно контрастирует с «глянцевой» героиней и байком.",
+        "action": "Камера делает медленный облёт-орбиту вокруг героини, позирующей на байке: наклон вперёд, смена ракурсов, акцент на фигуре и байке — «показ» без сюжета. В финале готовится тронуться.",
+        "subject": "AI-инфлюенсер Saya Moon — байкерша: розовый шлем с ушами, чёрно-розовая кожа, спортбайк в тон; акцент на фигуре и эстетике мотоцикла.",
+        "pacing": "11с, плавная непрерывная орбита камеры без резких склеек — один тягучий «показ»-план, рассчитанный на залипание и разглядывание, а не на сюжет.",
+        "ending": "Героиня садится ровно и готовится уехать — мягкий выход без панчлайна; вся ценность в «показе», а не в развязке.",
+        "whyItWorked": "Зритель-мужчина в ночной ленте получает прямой визуальный thirst-хук, а текст буквально велит смотреть — и непрерывная орбита не даёт повода листать. Отсюда почти максимальное удержание: avgWatch 10.4с из 11 (~95%!), досмотр 26.3% — «досматриваю весь показ». Результат: 828 показов и, главное, +16 подписок (хотят ЕЩЁ этого персонажа), 91 лайк, 6 сохранений. Цена — аудитория почти чисто мужская (97% М, 3% Ж) и старше (35–44 — 44%). Вывод: «непрерывный показ персонажа» — чемпион по удержанию и подпискам; масштабировать формат, осознавая, что он сужает аудиторию до М."
+      },
+      "contentTags": [
+        "мотоцикл",
+        "байкерша",
+        "спортбайк",
+        "заправка",
+        "ночь",
+        "позинг",
+        "эстетика",
+        "thirst",
+        "ai-инфлюенсер",
+        "показ"
+      ],
+      "metrics": {
+        "views": 828,
+        "likes": 91,
+        "comments": 3,
+        "shares": 1,
+        "saves": 6,
+        "newFollowers": 16,
+        "totalPlayTimeSec": 8898,
+        "averageWatchTimeSec": 10.4,
+        "watchedFullVideoRate": 0.2629,
+        "totalViewers": 749,
+        "totalViewersDeltaVsOneDayAgo": 3
+      }
+    },
+    {
+      "postId": "IG_002",
+      "creativeId": "CREATIVE_002_TOO_HOT_GAS_STATION",
+      "platform": "Instagram",
+      "account": null,
+      "model": "Saya Moon v1",
+      "creationMethod": "seedance 2 edit video",
+      "durationSec": 10.98,
+      "date": "2026-06-10",
+      "publishedAt": "2026-06-10",
+      "postUrl": null,
+      "textOnVideo": "too hot for a gas station",
+      "caption": "thought I was just gonna pull in and head out\nbut my bike was in the mood to put on a little show",
+      "description": null,
+      "sourceNotes": "Instagram date and duration are matched to the TikTok version per user instruction.",
+      "recordType": "LIVE",
+      "sourceUpdatedAt": null,
+      "contentPillar": "Мото / glam-показ персонажа",
+      "hookType": "Визуальный thirst + текст — «too hot for a gas station», контраст глянца и заправки",
+      "contentAnalysis": {
+        "hook": "Гламурная AI-байкерша на глянцевом чёрно-розовом спортбайке посреди обычной заправки Marathon ночью; розовый шлем с кошачьими ушами. Подпись «too hot for a gas station» прямо называет приём — контраст «модель уровня глянца в бытовом месте».",
+        "scene": "Ночь, освещённый навес заправки Marathon, бетон, топливные колонки. Бытовой фон намеренно контрастирует с «глянцевой» героиней и байком.",
+        "action": "Камера делает медленный облёт-орбиту вокруг героини, позирующей на байке: наклон вперёд, смена ракурсов, акцент на фигуре и байке — «показ» без сюжета. В финале готовится тронуться.",
+        "subject": "AI-инфлюенсер Saya Moon — байкерша: розовый шлем с ушами, чёрно-розовая кожа, спортбайк в тон; акцент на фигуре и эстетике мотоцикла.",
+        "pacing": "11с, плавная непрерывная орбита камеры без резких склеек — один тягучий «показ»-план, рассчитанный на залипание и разглядывание, а не на сюжет.",
+        "ending": "Героиня садится ровно и готовится уехать — мягкий выход без панчлайна; вся ценность в «показе», а не в развязке.",
+        "whyItWorked": "Лучший охват из всех (1838 показов, reach 1410) — «горячий» визуал на IG активно репостят и пересылают: 15 шеров, 1 репост, 7 сохранений, 25 заходов в профиль. Аудитория шире географически (US лишь 25%, дальше Турция/Иран/DE/UK) и чуть менее моно-мужская (77% М). Skip 0.328 (досматривает ~67%), avgWatch 7с из 11. Но при 25 заходах в профиль — лишь 3 подписки: «пришёл посмотреть на неё», но не остался. Гипотеза: шеры — главный драйвер охвата, усиливать «перешли другу» момент; для подписок добавить в концовку мини-крючок (намёк на серию/продолжение)."
+      },
+      "contentTags": [
+        "мотоцикл",
+        "байкерша",
+        "спортбайк",
+        "заправка",
+        "ночь",
+        "позинг",
+        "эстетика",
+        "thirst",
+        "ai-инфлюенсер",
+        "показ"
+      ],
+      "metrics": {
+        "views": 1838,
+        "reach": 1410,
+        "averageWatchTimeSec": 7,
+        "follows": 3,
+        "profileVisits": 25,
+        "likes": 59,
+        "comments": 2,
+        "reposts": 1,
+        "shares": 15,
+        "saves": 7,
+        "skipRate": 0.328,
+        "nativeShareRate": 0.011,
+        "nativeLikeRate": 0.042,
+        "nativeSaveRate": 0.005,
+        "nativeRepostRate": 0.001,
+        "nativeCommentRate": 0.001
+      }
+    }
+  ],
+  "audience": [
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Viewer type",
+      "segment": "New viewers",
+      "percentage": 0.95,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Viewer type",
+      "segment": "Returning viewers",
+      "percentage": 0.05,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Follower status",
+      "segment": "Non-followers",
+      "percentage": 0.98,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Follower status",
+      "segment": "Followers",
+      "percentage": 0.02,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Gender",
+      "segment": "Male",
+      "percentage": 0.59,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Gender",
+      "segment": "Female",
+      "percentage": 0.41,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Gender",
+      "segment": "Other",
+      "percentage": 0,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "18-24",
+      "percentage": 0.39,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "25-34",
+      "percentage": 0.3,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "35-44",
+      "percentage": 0.18,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "45-54",
+      "percentage": 0.08,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "55+",
+      "percentage": 0.05,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "United States",
+      "percentage": 0.977,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "Germany",
+      "percentage": 0.011,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "Poland",
+      "percentage": 0.004,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "Portugal",
+      "percentage": 0.004,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_001",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "Other",
+      "percentage": 0.004,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Follower status",
+      "segment": "Followers",
+      "percentage": 0.03,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Follower status",
+      "segment": "Non-followers",
+      "percentage": 0.97,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "13-17",
+      "percentage": 0,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "18-24",
+      "percentage": 0.381,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "25-34",
+      "percentage": 0.401,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "35-44",
+      "percentage": 0.137,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "45-54",
+      "percentage": 0.046,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "55-64",
+      "percentage": 0.02,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "65+",
+      "percentage": 0.015,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "United States",
+      "percentage": 0.46,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "United Kingdom",
+      "percentage": 0.074,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "Germany",
+      "percentage": 0.064,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "Italy",
+      "percentage": 0.054,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "India",
+      "percentage": 0.03,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Gender",
+      "segment": "Men",
+      "percentage": 0.805,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_001",
+      "platform": "Instagram",
+      "dimension": "Gender",
+      "segment": "Women",
+      "percentage": 0.195,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Viewer type",
+      "segment": "New viewers",
+      "percentage": 0.91,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Viewer type",
+      "segment": "Returning viewers",
+      "percentage": 0.09,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Follower status",
+      "segment": "Non-followers",
+      "percentage": 0.99,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Follower status",
+      "segment": "Followers",
+      "percentage": 0.01,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Gender",
+      "segment": "Male",
+      "percentage": 0.97,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Gender",
+      "segment": "Female",
+      "percentage": 0.03,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Gender",
+      "segment": "Other",
+      "percentage": 0,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "18-24",
+      "percentage": 0.07,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "25-34",
+      "percentage": 0.33,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "35-44",
+      "percentage": 0.44,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "45-54",
+      "percentage": 0.14,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Age",
+      "segment": "55+",
+      "percentage": 0.02,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "United States",
+      "percentage": 0.988,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "Canada",
+      "percentage": 0.004,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "Belgium",
+      "percentage": 0.001,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "China",
+      "percentage": 0.001,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "France",
+      "percentage": 0.001,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "Philippines",
+      "percentage": 0.001,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "TT_002",
+      "platform": "TikTok",
+      "dimension": "Country",
+      "segment": "Other",
+      "percentage": 0.004,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Follower status",
+      "segment": "Followers",
+      "percentage": 0.004,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Follower status",
+      "segment": "Non-followers",
+      "percentage": 0.996,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Gender",
+      "segment": "Men",
+      "percentage": 0.766,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Gender",
+      "segment": "Women",
+      "percentage": 0.234,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "United States",
+      "percentage": 0.253,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "Turkey",
+      "percentage": 0.072,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "Iran",
+      "percentage": 0.07,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "Germany",
+      "percentage": 0.062,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Country",
+      "segment": "United Kingdom",
+      "percentage": 0.048,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "13-17",
+      "percentage": 0.001,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "18-24",
+      "percentage": 0.233,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "25-34",
+      "percentage": 0.395,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "35-44",
+      "percentage": 0.233,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "45-54",
+      "percentage": 0.086,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "55-64",
+      "percentage": 0.033,
+      "recordType": "LIVE"
+    },
+    {
+      "postId": "IG_002",
+      "platform": "Instagram",
+      "dimension": "Age",
+      "segment": "65+",
+      "percentage": 0.02,
+      "recordType": "LIVE"
+    }
+  ],
+  "assets": [
+    {
+      "postId": "TT_001",
+      "type": "video",
+      "path": "storage/intake/videos/TT_001_saya_moon_v1_cat_ears_turn_signals.mp4",
+      "originalName": "video_2026-06-24_03-00-13.mp4",
+      "sizeBytes": 4167207,
+      "mimeType": "video/mp4",
+      "durationSecFromScreenshot": 12.07,
+      "width": null,
+      "height": null
+    },
+    {
+      "postId": "TT_001",
+      "type": "screenshot",
+      "label": "overview",
+      "path": "storage/intake/screenshots/TT_001_saya_moon_v1/overview.jpg",
+      "originalName": "photo_2026-06-24_03-03-43.jpg",
+      "sizeBytes": 95943
+    },
+    {
+      "postId": "TT_001",
+      "type": "screenshot",
+      "label": "viewers",
+      "path": "storage/intake/screenshots/TT_001_saya_moon_v1/viewers.jpg",
+      "originalName": "photo_2026-06-24_03-03-44.jpg",
+      "sizeBytes": 82031
+    },
+    {
+      "postId": "TT_001",
+      "type": "screenshot",
+      "label": "viewers_age_locations",
+      "path": "storage/intake/screenshots/TT_001_saya_moon_v1/viewers_age_locations.jpg",
+      "originalName": "photo_2026-06-24_03-03-45.jpg",
+      "sizeBytes": 100425
+    },
+    {
+      "postId": "IG_001",
+      "type": "video",
+      "path": "storage/intake/videos/IG_001_saya_moon_v1_cat_ears_turn_signals.mp4",
+      "originalName": "video_2026-06-24_03-13-22.mp4",
+      "sizeBytes": 2406426,
+      "mimeType": "video/mp4",
+      "durationSecFromUser": 12.07,
+      "width": null,
+      "height": null
+    },
+    {
+      "postId": "IG_001",
+      "type": "screenshot",
+      "label": "overview",
+      "path": "storage/intake/screenshots/IG_001_saya_moon_v1/overview.jpg",
+      "originalName": "photo_2026-06-24_03-09-29.jpg",
+      "sizeBytes": 117408
+    },
+    {
+      "postId": "IG_001",
+      "type": "screenshot",
+      "label": "overview_rates",
+      "path": "storage/intake/screenshots/IG_001_saya_moon_v1/overview_rates.jpg",
+      "originalName": "photo_2026-06-24_03-09-30.jpg",
+      "sizeBytes": 115919
+    },
+    {
+      "postId": "IG_001",
+      "type": "screenshot",
+      "label": "engagement",
+      "path": "storage/intake/screenshots/IG_001_saya_moon_v1/engagement.jpg",
+      "originalName": "photo_2026-06-24_03-09-32.jpg",
+      "sizeBytes": 123563
+    },
+    {
+      "postId": "IG_001",
+      "type": "screenshot",
+      "label": "audience_age",
+      "path": "storage/intake/screenshots/IG_001_saya_moon_v1/audience_age.jpg",
+      "originalName": "photo_2026-06-24_03-09-35.jpg",
+      "sizeBytes": 117001
+    },
+    {
+      "postId": "IG_001",
+      "type": "screenshot",
+      "label": "audience_country",
+      "path": "storage/intake/screenshots/IG_001_saya_moon_v1/audience_country.jpg",
+      "originalName": "photo_2026-06-24_03-09-38.jpg",
+      "sizeBytes": 120868
+    },
+    {
+      "postId": "IG_001",
+      "type": "screenshot",
+      "label": "audience_gender",
+      "path": "storage/intake/screenshots/IG_001_saya_moon_v1/audience_gender.jpg",
+      "originalName": "photo_2026-06-24_03-09-39.jpg",
+      "sizeBytes": 121355
+    },
+    {
+      "postId": "TT_002",
+      "type": "video",
+      "path": "storage/intake/videos/TT_002_saya_moon_v1_too_hot_for_a_gas_station.mp4",
+      "originalName": "video_2026-06-24_03-17-04.mp4",
+      "sizeBytes": 3860653,
+      "mimeType": "video/mp4",
+      "durationSecFromScreenshot": 10.98,
+      "width": null,
+      "height": null
+    },
+    {
+      "postId": "TT_002",
+      "type": "screenshot",
+      "label": "overview",
+      "path": "storage/intake/screenshots/TT_002_saya_moon_v1/overview.jpg",
+      "originalName": "photo_2026-06-24_03-19-09.jpg",
+      "sizeBytes": 95493
+    },
+    {
+      "postId": "TT_002",
+      "type": "screenshot",
+      "label": "viewers",
+      "path": "storage/intake/screenshots/TT_002_saya_moon_v1/viewers.jpg",
+      "originalName": "photo_2026-06-24_03-19-03.jpg",
+      "sizeBytes": 89968
+    },
+    {
+      "postId": "TT_002",
+      "type": "screenshot",
+      "label": "viewers_age_locations",
+      "path": "storage/intake/screenshots/TT_002_saya_moon_v1/viewers_age_locations.jpg",
+      "originalName": "photo_2026-06-24_03-19-04.jpg",
+      "sizeBytes": 78498
+    },
+    {
+      "postId": "IG_002",
+      "type": "video",
+      "path": "storage/intake/videos/IG_002_saya_moon_v1_too_hot_for_a_gas_station.mp4",
+      "originalName": "AQOTJNpfnFO_rmzAtuGUSRlLxb9UTPPyJl1u2yZPMJcP8iYvKpvKBnIvoaZcR6DTDK6vqNgPUiK4PJlZsy1RoWlOtvc9Z-CtoHkD5Mk.mp4",
+      "sizeBytes": 3481014,
+      "mimeType": "video/mp4",
+      "durationSecFromUser": 10.98,
+      "width": null,
+      "height": null
+    },
+    {
+      "postId": "IG_002",
+      "type": "screenshot",
+      "label": "overview",
+      "path": "storage/intake/screenshots/IG_002_saya_moon_v1/overview.jpg",
+      "originalName": "photo_2026-06-24_03-28-33.jpg",
+      "sizeBytes": 110378
+    },
+    {
+      "postId": "IG_002",
+      "type": "screenshot",
+      "label": "engagement",
+      "path": "storage/intake/screenshots/IG_002_saya_moon_v1/engagement.jpg",
+      "originalName": "photo_2026-06-24_03-28-32.jpg",
+      "sizeBytes": 111589
+    },
+    {
+      "postId": "IG_002",
+      "type": "screenshot",
+      "label": "overview_rates",
+      "path": "storage/intake/screenshots/IG_002_saya_moon_v1/overview_rates.jpg",
+      "originalName": "photo_2026-06-24_03-28-36.jpg",
+      "sizeBytes": 114088
+    },
+    {
+      "postId": "IG_002",
+      "type": "screenshot",
+      "label": "audience_country",
+      "path": "storage/intake/screenshots/IG_002_saya_moon_v1/audience_country.jpg",
+      "originalName": "photo_2026-06-24_03-28-35.jpg",
+      "sizeBytes": 124649
+    },
+    {
+      "postId": "IG_002",
+      "type": "screenshot",
+      "label": "audience_gender",
+      "path": "storage/intake/screenshots/IG_002_saya_moon_v1/audience_gender.jpg",
+      "originalName": "photo_2026-06-24_03-28-37.jpg",
+      "sizeBytes": 125782
+    },
+    {
+      "postId": "IG_002",
+      "type": "screenshot",
+      "label": "audience_age",
+      "path": "storage/intake/screenshots/IG_002_saya_moon_v1/audience_age.jpg",
+      "originalName": "photo_2026-06-24_03-38-47.jpg",
+      "sizeBytes": 126785
+    }
+  ],
+  "manualNotes": []
+}

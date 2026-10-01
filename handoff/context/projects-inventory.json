@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "capturedOn": "2026-09-28",
+  "purpose": "Read-only project handoff inventory for Claude Code on the same Windows host",
+  "sources": [
+    "C:/Users/Alex/.codex/context/active-projects.md",
+    "C:/Users/Alex/.codex/context/inshinlab.md",
+    "Codex list_projects",
+    "Codex list_threads (4 pinned + 50 recent unpinned)",
+    "Bounded exact-path checks and git status for four known code repositories"
+  ],
+  "scopeLimitations": [
+    "Not a recursive scan of all disks, all Codex folders or all chats.",
+    "Remote services and production state were not contacted or verified.",
+    "Historical project notes and release claims are not current production verification.",
+    "Only paths and documented entry points were checked; credentials, env values, authentication caches, private keys and raw sessions were not read.",
+    "Git status is a momentary snapshot; recheck before editing. No dependency installs, tests, launches, deployments or settings changes were performed.",
+    "Codex and ChatGPT conversation IDs cannot be resumed natively by Claude."
+  ],
+  "sharedRules": [
+    "Reuse the existing project, instructions, working directory and existing changes; never recreate a project just because Claude has no conversation history.",
+    "Read relevant AGENTS.md explicitly when Claude starts a project and create a small CLAUDE.md bridge only as part of the authorized bootstrap.",
+    "Deployment host is ssh inshinlab-vps; do not deploy or write to inshinlab-old / 144.172.111.253.",
+    "Do not bulk copy credentials into markdown, JSON, prompts or a migration package.",
+    "Do not reset, stash, switch branches, clean, overwrite or deploy existing uncommitted work during configuration.",
+    "Push to main may deploy through CI; inspect the actual workflow before a push.",
+    "Existing consent, privacy, participant membership, money, attribution and generation restrictions remain effective."
+  ],
+  "projects": [
+    {
+      "id": "iam",
+      "name": "I AM × INSHIN LAB",
+      "kind": "local-code",
+      "localDirectoryExists": true,
+      "workspaceRoot": "C:/Users/Alex/Documents/Codex/2026-09-07/fanview-ai-30-inchen-lab-telegram",
+      "codeRoot": "C:/Users/Alex/Documents/Codex/2026-09-07/fanview-ai-30-inchen-lab-telegram/service",
+      "git": {
+        "branch": "main",
+        "head": "fc2be00",
+        "dirty": false,
+        "verifiedOn": "2026-09-28"
+      },
+      "url": "https://inshinlab.com/iam/",
+      "entrypoints": [
+        "../work/active-service-guide.md",
+        "../outputs/implementation-status.md",
+        "README.md"
+      ],
+      "entrypointsRelativeTo": "codeRoot",
+      "historicalState": "Saved infrastructure notes: release 20260909-pilot-017 / b3c9b5f, verified in that source on 2026-09-09. Local HEAD now differs. Current production not checked.",
+      "remote": {
+        "hostAlias": "inshinlab-vps",
+        "path": "/opt/iam-mentorship/current",
+        "port": 4350
+      },
+      "constraints": [
+        "Do not read or export private source media or transcripts as part of bootstrap.",
+        "Participant recording/AI consent must remain participant controlled; shared AI was WAITING_CONSENT in saved notes.",
+        "Do not invent tasks, meeting dates, personal choices or consent.",
+        "LOCAL_PREVIEW must remain loopback and nonproduction; never proxy mock login to the internet.",
+        "Do not start two processes against the same PGlite database."
+      ],
+      "verificationFromReadme": [
+        "npm run check",
+        "npm test",
+        "python test/transcribe.test.py",
+        "npm run build"
+      ],
+      "runtimeFromReadme": "Node.js 22+ and npm",
+      "claudeMdAtCodeRootFound": false,
+      "agentsMdAtCodeRootFound": false
+    },
+    {
+      "id": "lola-flow",
+      "name": "Lola Flow / MotoLola partner platform",
+      "kind": "local-code",
+      "localDirectoryExists": true,
+      "workspaceRoot": "C:/Users/Alex/Documents/Codex/2026-08-15/inshen-lab-10-call-to-action",
+      "codeRoot": "C:/Users/Alex/Documents/Codex/2026-08-15/inshen-lab-10-call-to-action/work/lola-flow",
+      "git": {
+        "branch": "main",
+        "head": "3831f56",
+        "dirty": true,
+        "statusLineCount": 17,
+        "verifiedOn": "2026-09-28",
+        "workInProgress": "Changes to CI, package.json, public UI, server and dashboard test; new migration 053_cohort_reel_submissions.sql, reel-submissions implementation, release/smoke docs and tests."
+      },
+      "url": "https://inshinlab.com/content/",
+      "entrypoints": [
+        "README.md",
+        "ops/OWNER-ADMIN.md",
+        "ops/JOURNEY-LAUNCH.md",
+        "ops/FACTORY-RELEASE.md",
+        "ops/MANUAL-INSTAGRAM-RELEASE.md",
+        "ops/reel-submissions-release.md",
+        "../../outputs/motolola-team-results-20260927/release-signoff.md",
+        "../../outputs/motolola-owner-admin-20260927/release-signoff.md",
+        "../../outputs/motolola-journey-20260926/implementation-state.md"
+      ],
+      "entrypointsRelativeTo": "codeRoot",
+      "historicalState": "Saved active-projects notes record production 8afc8c5 / 20260927T045059Z. Local HEAD and uncommitted work are newer/different. Current production not checked.",
+      "remote": {
+        "hostAlias": "inshinlab-vps",
+        "path": "/opt/lola-flow"
+      },
+      "constraints": [
+        "Active uncommitted work exists: preserve it and identify the task owning it before any edits.",
+        "Paid AI generations are forbidden by Alex; payouts require his signature.",
+        "Do not repeat the September 25 invitation mailing or contact/invite participants without a new instruction.",
+        "Do not accept consent, confirm identity, activate or modify membership on behalf of real people.",
+        "Do not republish avatar candidates whose rights are unconfirmed.",
+        "Production Turnstile remains enabled; reopening recruitment needs explicit instruction and working Turnstile.",
+        "Do not claim Fanvue attribution/consent/webhook reconciliation or Apify live collection readiness from adapter configuration alone.",
+        "Maintain data, history, finance, assignments and protected owner/Redline rules. Do not roll back to pre-048 code; use documented feature flags/rollback only for an authorized release.",
+        "New cohort first cycle requires owner admission and cannot start before 2026-10-05 according to saved notes."
+      ],
+      "runtimeFromReadme": "Express/PostgreSQL application; inspect current package.json and CI before running checks",
+      "claudeMdAtCodeRootFound": false,
+      "agentsMdAtCodeRootFound": false
+    },
+    {
+      "id": "startframe",
+      "name": "StartFrame",
+      "kind": "local-code",
+      "localDirectoryExists": true,
+      "workspaceRoot": "C:/Users/Alex/Documents/Codex/2026-07-30/new-chat-2",
+      "codeRoot": "C:/Users/Alex/Documents/Codex/2026-07-30/new-chat-2/work/startframe",
+      "git": {
+        "branch": "main",
+        "head": "8e31d44",
+        "dirty": false,
+        "verifiedOn": "2026-09-28"
+      },
+      "url": "https://inshinlab.com/startframe/",
+      "entrypoints": [
+        "README.md",
+        "API.md",
+        "deploy",
+        "C:/Users/Alex/Documents/Codex/2026-09-16/new-chat/outputs/startframe-release.md"
+      ],
+      "entrypointsRelativeTo": "codeRoot unless absolute",
+      "historicalState": "Saved notes: v2.0.0, production 20260916T060032Z-v2 / 8e31d44 verified on 2026-09-16. Production not rechecked.",
+      "remote": {
+        "hostAlias": "inshinlab-vps",
+        "path": "/opt/startframe",
+        "service": "startframe.service",
+        "port": 4330
+      },
+      "constraints": [
+        "Keep existing production password hash/session secret and nginx routing.",
+        "Use documented promotion/checksum/backup/rollback process for an authorized deployment.",
+        "Port 4340 is used by another project according to saved infrastructure notes; do not assume free.",
+        "Preserve accurate frame extraction, session isolation, limits and temporary data expiry."
+      ],
+      "verificationFromReadme": [
+        "npm run check",
+        "npm test"
+      ],
+      "runtimeFromReadme": "Node.js 22+, FFmpeg and FFprobe; no build step",
+      "claudeMdAtCodeRootFound": false,
+      "agentsMdAtCodeRootFound": false
+    },
+    {
+      "id": "inshin-lab-academy",
+      "name": "INSHIN LAB Academy",
+      "kind": "local-code-saved-project",
+      "localDirectoryExists": true,
+      "workspaceRoot": "C:/Users/Alex/Downloads/INSHIN_LAB_AI_OFM_CODEX_STARTER_PACK_V2",
+      "codeRoot": "C:/Users/Alex/Downloads/INSHIN_LAB_AI_OFM_CODEX_STARTER_PACK_V2",
+      "git": {
+        "branch": "main",
+        "head": "b91a67f",
+        "dirty": false,
+        "verifiedOn": "2026-09-28"
+      },
+      "url": "https://inshinlab.com/inshin-lab-academy",
+      "entrypoints": [
+        "AGENTS.md",
+        "docs/PROJECT_STATE.md",
+        "docs/ACCEPTANCE_AUDIT.md",
+        "docs/DECISIONS.md",
+        "README.md",
+        "PRODUCT_SPEC.md",
+        "SOURCE_MANIFEST.md",
+        ".agent/PLANS.md"
+      ],
+      "entrypointsRelativeTo": "codeRoot",
+      "historicalState": "docs/PROJECT_STATE.md contains a 2026-07-06 implementation/release summary. The repository exists and is saved in Codex; current production status and active task priority not checked.",
+      "constraints": [
+        "Existing AGENTS.md includes mandatory project state/ExecPlan and test requirements; read full file before implementation.",
+        "Do not execute reset/seed/migration/deployment or real bot messaging as a bootstrap readiness check.",
+        "Preserve server auth, RBAC, privacy and explicit development/production separation."
+      ],
+      "runtimeFromReadme": "Node.js 24 LTS, pnpm, PostgreSQL; Docker Desktop for documented Docker flows",
+      "claudeMdAtCodeRootFound": false,
+      "agentsMdAtCodeRootFound": true
+    },
+    {
+      "id": "motolola-text",
+      "name": "Придумывалка текстов",
+      "kind": "local-content",
+      "localDirectoryExists": true,
+      "workspaceRoot": "C:/Users/Alex/Documents/Codex/2026-08-22/new-chat",
+      "entrypoints": [
+        "AGENTS.md",
+        "C:/Users/Alex/.codex/skills/motolola-reels-text/SKILL.md",
+        "C:/Users/Alex/.codex/skills/alex-content/SKILL.md"
+      ],
+      "entrypointsRelativeTo": "workspaceRoot unless absolute",
+      "constraints": [
+        "Task AGENTS.md references stale motolola-reels/SKILL.md which does not exist; actual current skill is motolola-reels-text/SKILL.md.",
+        "Use existing voice and requested scope; unrelated music identification or transcription does not require caption generation.",
+        "Do not publish or upload source media without authorization."
+      ]
+    },
+    {
+      "id": "telegram-content",
+      "name": "Посты для Telegram",
+      "kind": "local-content",
+      "localDirectoryExists": true,
+      "workspaceRoot": "C:/Users/Alex/Documents/Codex/2026-08-31/new-chat",
+      "entrypoints": [
+        "AGENTS.md",
+        "C:/Users/Alex/.codex/skills/alex-content/SKILL.md"
+      ],
+      "entrypointsRelativeTo": "workspaceRoot unless absolute",
+      "constraints": [
+        "Preserve Alex's voice and requested output format.",
+        "Drafting is not authorization to publish to t.me/inshinlab."
+      ]
+    },
+    {
+      "id": "motolola-seedance",
+      "name": "Seedance 2.5 промтинг",
+      "kind": "local-content",
+      "localDirectoryExists": true,
+      "workspaceRoot": "C:/Users/Alex/Documents/Codex/2026-09-02/new-chat-2",
+      "entrypoints": [
+        "AGENTS.md",
+        "C:/Users/Alex/.codex/skills/motolola-seedance/SKILL.md",
+        "motolola/research.md",
+        "motolola/assets.json",
+        "motolola/cases.json"
+      ],
+      "entrypointsRelativeTo": "workspaceRoot unless absolute",
+      "constraints": [
+        "Read only relevant motolola records and skill-routed references, not full chat history.",
+        "Historical outputs and imported GPT/V2 docs are not current defaults.",
+        "No paid generation, reference uploads, source media mutation or Telegram publication authorization comes from opening this workspace."
+      ]
+    }
+  ],
+  "remoteOnlyOrLocalPathNotEstablished": [
+    {
+      "id": "motolola-site",
+      "name": "MotoLola website",
+      "url": "https://moto-lola.com/",
+      "hostAlias": "inshinlab-vps",
+      "remotePath": "/var/www/apps/motolola",
+      "stateConfidence": "Path from saved notes; no remote verification and no local checkout identified in bounded audit."
+    },
+    {
+      "id": "swapforge",
+      "name": "SwapForge",
+      "url": "https://inshinlab.com/swapforge/",
+      "hostAlias": "inshinlab-vps",
+      "remotePath": "/opt/swapforge-current",
+      "stateConfidence": "Saved notes name release 52f933b363b223a49e2a533084e2ec90444fb9ca; current runtime/model/provider not verified.",
+      "constraints": [
+        "Do not infer actual Seedance/GPT model settings from old README references.",
+        "Do not run paid generations for setup testing."
+      ]
+    },
+    {
+      "id": "motolola-join-guard",
+      "name": "Проверка Telegram-подписчиков",
+      "hostAlias": "inshinlab-vps",
+      "remotePath": "/opt/motolola-join-guard",
+      "service": "motolola-join-guard.service",
+      "stateConfidence": "Saved state was updated 2026-09-04; no current runtime check.",
+      "constraints": [
+        "Preserve exclusions, real join/rejoin/leave semantics and partner link integrity."
+      ]
+    },
+    {
+      "id": "inshin-media-saver",
+      "name": "Inshin Media Saver",
+      "hostAlias": "inshinlab-vps",
+      "remotePath": "/opt/inshin-media-saver-bot",
+      "stateConfidence": "Saved source commit e91024e from 2026-09-02; runtime under expected name was not found in that prior survey. This does not prove broken/missing runtime. Establish it first."
+    },
+    {
+      "id": "ai-dash",
+      "name": "ai-dash",
+      "hostAlias": "inshinlab-vps",
+      "remotePath": "/opt/ai-dash",
+      "service": "ai-dash.service",
+      "url": "https://inshinlab.com/ai-dash/",
+      "stateConfidence": "Infrastructure baseline is dated 2026-07-04; no local checkout located in this bounded audit.",
+      "constraints": [
+        "Inspect current CI and deploy script before pushing main; it may deploy production."
+      ]
+    },
+    {
+      "id": "yasno",
+      "name": "Yasno and related static sites",
+      "hostAlias": "inshinlab-vps",
+      "remotePath": "/var/www/apps/",
+      "stateConfidence": "Historical paths from July infrastructure notes only.",
+      "nextRead": "C:/Users/Alex/.codex/context/inshinlab.md",
+      "knownHistoricalNames": [
+        "portfolio",
+        "yasno",
+        "content-factory",
+        "ai-influence",
+        "yasno-growth-main",
+        "yasno-growth-strategy",
+        "yasno-crm",
+        "AI-maturity-roadmap"
+      ]
+    }
+  ],
+  "savedProjectsWithoutCodeCheckout": [
+    {
+      "name": "Alex",
+      "kind": "local-container",
+      "path": "C:/Users/Alex",
+      "exists": true,
+      "note": "Saved Codex project is the whole home directory. Do not adopt home as a blanket Claude project root or grant recursive migration scope to it."
+    },
+    {
+      "name": "Контент",
+      "kind": "chatgpt-project",
+      "note": "No filesystem path supplied by list_projects."
+    },
+    {
+      "name": "Стримы",
+      "kind": "chatgpt-project",
+      "note": "No filesystem path supplied by list_projects."
+    },
+    {
+      "name": "Ролики",
+      "kind": "chatgpt-project",
+      "note": "No filesystem path supplied by list_projects."
+    },
+    {
+      "name": "Английский",
+      "kind": "chatgpt-project",
+      "note": "No filesystem path supplied by list_projects."
+    }
+  ]
+}

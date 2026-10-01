@@ -1,0 +1,13 @@
+{
+  "model": "claude-fable-5-1",
+  "availableModels": ["claude-fable-5-1", "claude-opus-5-5"],
+  "enforceAvailableModels": true,
+  "switchModelsOnFlag": false,
+  "ultracode": true,
+  "enableWorkflows": true,
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL_FORCE": "1",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "claude-fable-5-1",
+    "CLAUDE_CODE_EFFORT_LEVEL": "xhigh"
+  }
+}

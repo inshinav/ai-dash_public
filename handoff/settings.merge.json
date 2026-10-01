@@ -1,0 +1,22 @@
+{
+  "model": "claude-fable-5-1",
+  "availableModels": ["claude-fable-5-1", "claude-opus-5-5"],
+  "enforceAvailableModels": true,
+  "ultracode": true,
+  "enableWorkflows": true,
+  "switchModelsOnFlag": false,
+  "modelSettings": {
+    "claude-fable-5-1": { "effortLevel": "xhigh" },
+    "claude-opus-5-5": { "effortLevel": "xhigh" }
+  },
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL_FORCE": "1"
+  },
+  "pluginConfigs": {
+    "agents-md@builtin": {
+      "options": {
+        "instructionFiles": "claude-md-and-agents-md"
+      }
+    }
+  }
+}

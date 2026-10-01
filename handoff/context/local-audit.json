@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "observedDate": "2026-09-28",
+  "scope": "Read-only local metadata audit; no generation request, OAuth, server connection, settings mutation, secrets export or raw-session access.",
+  "claude": {
+    "executable": "C:\\Users\\Alex\\.local\\bin\\claude.exe",
+    "version": "2.1.126",
+    "auth": {
+      "loggedIn": false,
+      "authMethod": "none",
+      "apiProvider": "firstParty",
+      "commandExitCode": 1
+    },
+    "cliSupportedEffort": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max"
+    ],
+    "cliSupportedPermissionModes": [
+      "acceptEdits",
+      "auto",
+      "bypassPermissions",
+      "default",
+      "dontAsk",
+      "plan"
+    ],
+    "modelResolution": "No explicit model/effort in inspected user settings; no inference about actual default or account entitlement."
+  },
+  "settings": [
+    {
+      "path": "C:\\Users\\Alex\\.claude\\settings.json",
+      "model": null,
+      "modelSpecified": false,
+      "effortLevel": null,
+      "effortSpecified": false,
+      "permissionsDefaultMode": "bypassPermissions",
+      "envNames": [
+        "DISABLE_TELEMETRY",
+        "DISABLE_ERROR_REPORTING",
+        "CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY",
+        "DISABLE_FEEDBACK_COMMAND",
+        "DO_NOT_TRACK"
+      ],
+      "hooks": [],
+      "topLevelKeys": [
+        "autoUpdatesChannel",
+        "skipWorkflowUsageWarning",
+        "env",
+        "cleanupPeriodDays",
+        "permissions"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Alex\\.claude\\settings.local.json",
+      "model": null,
+      "modelSpecified": false,
+      "effortLevel": null,
+      "effortSpecified": false,
+      "permissionsDefaultMode": null,
+      "envNames": [],
+      "hooks": [
+        {
+          "event": "PostToolUse",
+          "matcherGroupCount": 1,
+          "hookCount": 1
+        }
+      ],
+      "topLevelKeys": [
+        "permissions",
+        "hooks",
+        "description"
+      ]
+    }
+  ],
+  "claudeMcp": {
+    "source": "C:\\Users\\Alex\\.claude.json",
+    "global": [
+      {
+        "name": "codex",
+        "type": "stdio",
+        "transport": null
+      },
+      {
+        "name": "stitch",
+        "type": "http",
+        "transport": null
+      },
+      {
+        "name": "refero",
+        "type": "http",
+        "transport": null
+      }
+    ],
+    "projectScoped": [
+      {
+        "project": "C:/Users/Alex",
+        "servers": [
+          {
+            "name": "refero",
+            "type": "http",
+            "transport": null
+          }
+        ]
+      },
+      {
+        "project": "C:/Windows/system32",
+        "servers": [
+          {
+            "name": "stitch",
+            "type": "http",
+            "transport": null
+          }
+        ]
+      }
+    ],
+    "liveConnectivityVerified": false
+  },
+  "codexMcpSectionHeaders": [
+    "[mcp_servers.node_repl]",
+    "[mcp_servers.claude_code]",
+    "[mcp_servers.cloudflare]",
+    "[mcp_servers.cloudflare-docs]",
+    "[mcp_servers.cloudflare-bindings]",
+    "[mcp_servers.cloudflare-builds]",
+    "[mcp_servers.cloudflare-observability]",
+    "[mcp_servers.openaiDeveloperDocs]",
+    "[mcp_servers.cua_repl]"
+  ],
+  "skills": [
+    {
+      "path": "C:\\Users\\Alex\\.claude\\skills",
+      "directories": [
+        "animation-vocabulary",
+        "brandkit",
+        "cro",
+        "design-taste-frontend",
+        "design-taste-frontend-v1",
+        "emil-design-eng",
+        "full-output-enforcement",
+        "gpt-taste",
+        "high-end-visual-design",
+        "image-to-code",
+        "imagegen-frontend-mobile",
+        "imagegen-frontend-web",
+        "impeccable",
+        "industrial-brutalist-ui",
+        "landing-page-guide-v2",
+        "minimalist-ui",
+        "redesign-existing-projects",
+        "review-animations",
+        "stitch-design-taste"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Alex\\.codex\\skills",
+      "directories": [
+        ".system",
+        "alex-content",
+        "motolola-reels-text",
+        "motolola-seedance"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Alex\\.agents\\skills",
+      "directories": [
+        "agents-sdk",
+        "cloudflare",
+        "cloudflare-email-service",
+        "cloudflare-one",
+        "cloudflare-one-migrations",
+        "durable-objects",
+        "sandbox-sdk",
+        "turnstile-spin",
+        "web-perf",
+        "workers-best-practices",
+        "wrangler"
+      ]
+    }
+  ],
+  "claudeMdCandidates": [
+    {
+      "path": "C:\\Users\\Alex\\CLAUDE.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\Alex\\.claude\\CLAUDE.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\Alex\\Documents\\CLAUDE.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\Alex\\Documents\\Codex\\CLAUDE.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\Alex\\Documents\\Codex\\2026-09-28\\CLAUDE.md",
+      "exists": false
+    },
+    {
+      "path": "C:\\Users\\Alex\\Documents\\Codex\\2026-09-28\\vy\\CLAUDE.md",
+      "exists": false
+    }
+  ],
+  "tooling": {
+    "git": "2.53.0.windows.2",
+    "node": "v24.15.0",
+    "gh": "2.96.0 (2026-07-02)"
+  },
+  "github": {
+    "host": "github.com",
+    "activeAccount": "inshinav",
+    "loggedIn": true,
+    "credentialStorage": "keyring",
+    "gitProtocol": "ssh",
+    "scopes": [
+      "gist",
+      "read:org",
+      "repo"
+    ],
+    "tokenNotExported": true
+  },
+  "ssh": {
+    "alias": "inshinlab-vps",
+    "resolvedHost": "107.189.20.126",
+    "user": "root",
+    "port": 22,
+    "verification": "ssh -G configuration resolution only",
+    "connected": false
+  },
+  "exclusions": [
+    "~/.claude/.credentials.json contents",
+    "SSH private keys",
+    "dotenv files",
+    "raw conversations/sessions",
+    "MCP URLs/commands/headers/credential values",
+    "hook commands",
+    "environment variable values"
+  ]
+}
